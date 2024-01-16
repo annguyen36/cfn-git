@@ -4,10 +4,6 @@ template-file-path: wordpress.yaml
 parameters: 
     KeyName: us-east-1
     SSHLocation: 0.0.0.0/0
-    DBPassword: 'test1234'
-    DBName: wordpressdb
-    DBUser: 'admin;
-    DBRootPassword: 'test1234'
     InstanceType: t2.medium
 tags:
     cost-center: '123456'
