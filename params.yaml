@@ -1,5 +1,5 @@
 
-template-file-path: ./wordpress.yaml
+template-file-path: wordpress.yaml
 
 parameters: 
     KeyName: us-east-1
