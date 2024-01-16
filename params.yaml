@@ -1,7 +1,10 @@
-KeyName: us-east-1
-SSHLocation: 0.0.0.0/0
-DBPassword: 'test1234'
-DBName: wordpressdb
-DBUser: 'admin;
-DBRootPassword: 'test1234'
-InstanceType: t2.small
+template-file-path: wordpress.json
+parameters:
+  KeyName: us-east-1
+  SSHLocation: 0.0.0.0/0
+  DBPassword: '****'
+  DBName: wordpressdb
+  DBUser: '****'
+  DBRootPassword: '****'
+  InstanceType: t2.small
+tags: {}
