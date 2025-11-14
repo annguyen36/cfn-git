@@ -2,3 +2,9 @@ Resources:
   dummyResource:
     Type: AWS::CloudFormation::WaitConditionHandle
     Properties: {}
+  MyDummyBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: Private
+      # Using a unique bucket name to avoid conflicts
+      BucketName: !Sub "dummy-policy-dep-test-2-${AWS::AccountId}"
