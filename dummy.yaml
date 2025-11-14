@@ -1,0 +1,4 @@
+Resources:
+  dummyResource:
+    Type: AWS::CloudFormation::WaitConditionHandle
+    Properties: {}
